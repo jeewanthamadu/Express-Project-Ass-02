@@ -1,18 +1,16 @@
 const express = require('express');
 const app = express();
-const Customer=require('./routes/customer')
+const order = require("./routes/order");
 const item = require("./routes/item");
+const customer = require("./routes/customer");
 
 const port = 4000;
 
 app.use(express.json())
-app.use('/customer',Customer)
+app.use("/customer", customer);
 app.use("/item", item);
+app.use("/order", order);
 
-app.get('/',(req,res)=>{
-    console.log(`get request has come`);
-    res.send('Hello world!')
-})
 
 
 app.listen(port,(req, res)=>{
