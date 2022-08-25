@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const db =require(".../config/db.config");
+const db =require("../config/db.config");
 
 const mysql =require("mysql");
 const req = require("express/lib/request");

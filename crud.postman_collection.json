@@ -15,12 +15,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/customer",
+							"raw": "http://localhost:4000/customer",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"customer"
 							]
@@ -43,12 +43,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/customer",
+							"raw": "http://localhost:4000/customer",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"customer"
 							]
@@ -63,7 +63,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\":\"C001\",\r\n    \"name\":\"Kusal\",\r\n    \"address\":\"Warakapola\"\r\n}",
+							"raw": "{\r\n    \"id\":\"C001\",\r\n    \"name\":\"jeewa\",\r\n    \"address\":\"Bandaragama\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -71,12 +71,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/customer",
+							"raw": "http://localhost:4000/customer",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"customer"
 							]
@@ -99,12 +99,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/customer",
+							"raw": "http://localhost:4000/customer",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"customer"
 							]
@@ -123,12 +123,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/item",
+							"raw": "http://localhost:4000/item",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"item"
 							]
@@ -151,12 +151,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/item",
+							"raw": "http://localhost:4000/item",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"item"
 							]
@@ -179,12 +179,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/item",
+							"raw": "http://localhost:4000/item",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"item"
 							]
@@ -207,12 +207,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/item/I002",
+							"raw": "http://localhost:4000/item/I002",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"item",
 								"I002"
@@ -232,12 +232,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/order",
+							"raw": "http://localhost:4000/order",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"order"
 							]
@@ -260,12 +260,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/order",
+							"raw": "http://localhost:4000/order",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"order"
 							]
@@ -288,12 +288,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/order",
+							"raw": "http://localhost:4000/order",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"order"
 							]
@@ -316,12 +316,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/order/O001",
+							"raw": "http://localhost:4000/order/O001",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"order",
 								"O001"
@@ -341,12 +341,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/orderdetails",
+							"raw": "http://localhost:4000/orderdetails",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"orderdetails"
 							]
@@ -369,12 +369,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/orderdetails",
+							"raw": "http://localhost:4000/orderdetails",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"orderdetails"
 							]
@@ -397,12 +397,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/orderdetails",
+							"raw": "http://localhost:4000/orderdetails",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"orderdetails"
 							]
@@ -425,12 +425,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/orderdetails/OD001",
+							"raw": "http://localhost:4000/orderdetails/OD001",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "4000",
 							"path": [
 								"orderdetails",
 								"OD001"
